@@ -44,5 +44,5 @@
     "vite-plugin-svgr": "^4.2.0",
     "vite-tsconfig-paths": "^4.3.1"
   },
-  "proxy": "https://crypt-xi.vercel.app/"
+  "proxy": "https://crypt-xi.vercel.app/api/"
 }
