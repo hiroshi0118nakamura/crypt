@@ -5,7 +5,7 @@ export const api = () => {
     headers: {
       "Content-Type": "application/json",
     },
-    baseURL: "http://localhost:3000/api/",
+    baseURL: "https://crypt-xi.vercel.app/api/",
     timeout: 60000,
   });
   instance.interceptors.request.use(
