@@ -5,7 +5,7 @@ export const api = () => {
     headers: {
       "Content-Type": "application/json",
     },
-    baseURL: import.meta.env.VITE_BASE_URL,
+    baseURL: "https://crypt-xi.vercel.app/",
     timeout: 60000,
   });
   instance.interceptors.request.use(
